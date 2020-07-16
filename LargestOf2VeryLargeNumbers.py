@@ -33,4 +33,4 @@ if(res1>res2):
 elif(res2>res1):
     print("Largest number is", x2, '^', y2)
 else:
-    print("Both are equal")
+    print("Both the number are equal")
