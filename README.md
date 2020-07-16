@@ -1,9 +1,8 @@
-# Python Algorithms
-Algorithms for CaesarCipher and to find Largest of two Very large numbers.
-More Algorithms on the way.
+# Some Random Python Programs
+Some random python programs.(IDK why i created this :(, also i dont feel like deleting it).
 
 1.CaesarCipher.
-  simple and easy algorithm to encrypt and decrypt caesar cipher.
+  simple and easy program to encrypt and decrypt caesar cipher.
 
 2.Largest of very large numbers.
-  Simple and easy to understand algorithm to find largest of two very large numbers, i.e, numbers like 512^513 and 513^512.
+  Program to find largest of two very large numbers, i.e, numbers like 512^513 and 513^512.
