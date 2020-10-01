@@ -2,7 +2,7 @@
 file = open("hello.txt",'r')
 newlst = dict()
 for word in file:
-    lst = word.strip().split()
+    lst = word.strip().split()  #to strip and split
     for item in lst:
         newlst[item] = newlst.get(item,0)+1
 
