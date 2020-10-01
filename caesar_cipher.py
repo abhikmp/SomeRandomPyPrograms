@@ -26,7 +26,7 @@ def encrypt(k):                                                                 
                 n+=1
     print("The encrypted text is: ","".join(b))
        
-def decrypt(k):                                                                         #Function to decrypt an encrypted string.
+def decrypt(k):                          #Function to decrypt an encrypted string.
     n,i=0,0 
     l="abcdefghijklmnopqrstuvwxyz"
     l=list(l)
