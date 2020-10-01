@@ -33,6 +33,6 @@ def insertion_sort(arr):
 		arr = arr[:j] + [val] + arr[j:i] + arr[i+1:] 
 	return arr 
 
-print("Sorted array:") 
+print("Sorted array is:") 
 print insertion_sort([37, 23, 0, 17, 12, 72, 31, 58, 100, 88, 54]) 
 
