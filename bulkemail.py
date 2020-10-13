@@ -1,4 +1,4 @@
-#For this you need to have a file emails.csv which has all the emails you want to send to.
+#For this you need to have a file emails.csv which has all the emails you want to send to. You can use addtocsv.py program to add files to a csv file, just replace filename.csv with emails.csv
 
 import smtplib
 import csv
