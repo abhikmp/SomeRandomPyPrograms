@@ -1,6 +1,8 @@
 # Some Random Python Programs
 Some random python programs: (IDK why i created this :(, also i dont feel like deleting it).
 
+(*please use kebab-case for naming files.*)
+
 * CaesarCipher: 
   simple and easy program to encrypt and decrypt caesar cipher.
 
