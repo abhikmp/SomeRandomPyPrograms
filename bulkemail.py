@@ -39,3 +39,4 @@ def getrecipientsfromcsv():
 lst = getrecipientsfromcsv()
 print(lst)
 sendmail(lst)
+
