@@ -1,7 +1,8 @@
 
 #This is a python program to decode and encode a caesar-cypher, given its key.
 
-def encrypt(k):                                                                         #Function to encrypt a given string.
+#Function to encrypt a given string.
+def encrypt(k):                                                                         
     n,i=0,0
     l="abcdefghijklmnopqrstuvwxyz"
     l=list(l)
@@ -25,8 +26,9 @@ def encrypt(k):                                                                 
                 b.append(' ')
                 n+=1
     print("The encrypted text is: ","".join(b))
-       
-def decrypt(k):                          #Function to decrypt an encrypted string.
+
+#Function to decrypt an encrypted string.
+def decrypt(k):                          
     n,i=0,0 
     l="abcdefghijklmnopqrstuvwxyz"
     l=list(l)
@@ -51,14 +53,16 @@ def decrypt(k):                          #Function to decrypt an encrypted strin
                 n+=1
     print("Cipher after decryption is: ","".join(b))
 
-o=int(input("1.encrypt   2.decrypt   0.exit"))
-while(o!=0):
-    if(o==1):
+    
+#Main
+opt=int(input("1.encrypt   2.decrypt   0.exit"))
+while(opt!=0):
+    if(opt==1):
         n=int(input("enter key"))
         encrypt(n)
-    elif(o==2):
+    elif(opt==2):
         n=int(input("enter key"))
         decrypt(n)
     else:
         print("enter valid option")
-    o=int(input("1.encrypt 2.decrypt 0.exit"))
+    opt=int(input("1.encrypt 2.decrypt 0.exit"))
